@@ -36,7 +36,7 @@ const Header = () => {
             </svg>
             <h2 className="text-xl font-bold text-shadow-sm">Evently</h2>
           </Link>
-          <nav className="flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8">
             <Link className="text-white text-sm font-semibold hover:text-blue-400 transition-colors duration-300" to="/">Home</Link>
             <Link className="text-white/90 text-sm font-semibold hover:text-blue-400 transition-colors duration-300" to="/search">Explore</Link>
           </nav>
